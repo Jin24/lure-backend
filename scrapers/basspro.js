@@ -4,7 +4,7 @@ async function scrapeBassPro(query) {
   console.log("[BassPro] Using Coveo API...");
 
   // 🔴 REPLACE THESE WITH VALUES YOU FOUND IN NETWORK TAB
-  const ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJmaWx0ZXIiOiJAc291cmNlPT1CYXNzUHJvQ2F0YWxvZ1BST0QgT1IgQHNvdXJjZT09QmFzc1Byb0NhdGFsb2dQUk9ELUdSRUVOIiwidjgiOnRydWUsInRva2VuSWQiOiJ1aTVxYmhnYW1vMmlpeW5xM2IyZmo2Y2VkaSIsIm9yZ2FuaXphdGlvbiI6ImJhc3Nwcm9zaG9wc3Byb2R1Y3Rpb25sOTJlcHltciIsInVzZXJJZHMiOlt7InR5cGUiOiJVc2VyIiwibmFtZSI6ImFub255bW91cyIsInByb3ZpZGVyIjoiRW1haWwgU2VjdXJpdHkgUHJvdmlkZXIifV0sInJvbGVzIjpbInF1ZXJ5RXhlY3V0b3IiXSwiaXNzIjoiU2VhcmNoQXBpIiwiZXhwIjoxNzc1NjkwMjkzLCJpYXQiOjE3NzU2NzU4OTN9.O-cskMEnMGdf35S1LaII0_0zkyrotVS0qVpduhQzfBY";
+  const ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJmaWx0ZXIiOiJAc291cmNlPT1CYXNzUHJvQ2F0YWxvZ1BST0QgT1IgQHNvdXJjZT09QmFzc1Byb0NhdGFsb2dQUk9ELUdSRUVOIiwidjgiOnRydWUsInRva2VuSWQiOiJ3NXp4dWxta2lhczZiYTRvemIycHQzc3A2aSIsIm9yZ2FuaXphdGlvbiI6ImJhc3Nwcm9zaG9wc3Byb2R1Y3Rpb25sOTJlcHltciIsInVzZXJJZHMiOlt7InR5cGUiOiJVc2VyIiwibmFtZSI6ImFub255bW91cyIsInByb3ZpZGVyIjoiRW1haWwgU2VjdXJpdHkgUHJvdmlkZXIifV0sInJvbGVzIjpbInF1ZXJ5RXhlY3V0b3IiXSwiaXNzIjoiU2VhcmNoQXBpIiwiZXhwIjoxNzc1NzA1MjU5LCJpYXQiOjE3NzU2OTA4NTl9.OkW-xfeygCJz_xdnQOgB14gpjvqKDvNbdICKrSq7pb0";
   const ORG_ID = "bassproshopsproductionl92epymr"; // example — replace if different
 
   const url = `https://platform.cloud.coveo.com/rest/search/v2`;
@@ -44,6 +44,7 @@ async function scrapeBassPro(query) {
         store: "Bass Pro Canada",
       };
     });
+
 
     console.log("[BassPro] Found products:", parsed.length);
 
