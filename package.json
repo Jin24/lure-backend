@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@sparticuz/chromium": "^143.0.4",
+    "axios": "^1.15.0",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "google-search-results-nodejs": "^2.1.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.40.0",
+    "puppeteer-core": "^24.40.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
